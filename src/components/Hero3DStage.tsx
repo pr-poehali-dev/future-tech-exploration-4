@@ -61,7 +61,7 @@ export function Hero3DStage() {
                 transition={{ duration: 0.6 }}
                 className="text-4xl md:text-5xl lg:text-[56px] font-medium text-white leading-[1.1] text-balance"
               >
-                Orbit - инструмент для планирования и создания продуктов
+                Электроприборы для бизнеса — от раритетных до новейших моделей
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -69,9 +69,9 @@ export function Hero3DStage() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="mt-6 text-lg text-zinc-400"
               >
-                Система для современной разработки.
+                B2B поставки, сервисное обслуживание и доставка по всей стране.
                 <br />
-                Управляйте задачами, проектами и дорожными картами.
+                Тысячи позиций в наличии — найдём любой прибор для вашего производства.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -79,11 +79,11 @@ export function Hero3DStage() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="mt-8 flex items-center gap-6"
               >
-                <button className="px-5 py-2.5 bg-white text-zinc-900 font-medium rounded-lg hover:bg-zinc-100 transition-colors text-sm">
-                  Начать работу
+                <button className="px-5 py-2.5 bg-amber-500 text-zinc-900 font-medium rounded-lg hover:bg-amber-400 transition-colors text-sm">
+                  Запросить прайс
                 </button>
                 <button className="text-zinc-300 font-medium hover:text-white transition-colors flex items-center gap-2 text-sm">
-                  <span className="text-zinc-500">Новинка:</span> Orbit-агент для Slack
+                  <span className="text-zinc-500">Новинка:</span> Раритетные приборы СССР в наличии
                   <span aria-hidden="true">→</span>
                 </button>
               </motion.div>
